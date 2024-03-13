@@ -8,10 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      screens: {
+        phone: "375px",
+        tablet: "768px",
+        laptop: "1024px",
+        desktop: "1440px",
+      },
+      colors: {
+        "light-blue": "rgb(30,144,240)",
+        "dark-blue": "rgb(29,113,200)",
+
+      },
+      fontFamily: {
+        mulish: ["var(--font-mulish)"],
       },
     },
   },
