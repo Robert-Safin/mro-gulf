@@ -67,7 +67,7 @@ export default async function Home() {
             <p>E-Mail: s.poda@mrogulf.com </p>
           </div>
 
-          <div className="h-full flex justify-between items-end pb-10">
+          <div className="h-full flex justify-between items-end laptop:pb-10 mt-40 laptop:mt-0">
             <p className="text-sm">COPYRIGHT © 2024 MRO GULF</p>
             <Link href="/policy">
               <p className="text-sm">Privacy policy</p>
