@@ -1,6 +1,6 @@
 const PolicyPage = () => {
   return (
-    <div className="mt-40 max-w-screen-desktop mx-auto pb-10">
+    <div className="mt-40 max-w-screen-desktop mx-auto pb-10 px-5 tablet:px-8 laptop:px-12">
       <h1 className="text-3xl my-8">Privacy Policy</h1>
       <div className="flex flex-col space-y-4">
         <p>Last updated: March 13, 2024</p>
