@@ -8,13 +8,13 @@ export default async function Home() {
     <main className="">
       <div className="flex flex-col laptop:flex-row max-w-screen-desktop mx-auto">
         <div className="relative laptop:h-screen w-full laptop:w-1/2 bg-dark-blue flex flex-col justify-between  px-5 tablet:px-8 laptop:px-12 pt-28 pb-10">
-          <h2 className="text-white text-xl laptop:text-[40px] desktop:text-5xl leading-[35px] laptop:leading-[50px] desktop:leading-[60px]">
+          <h2 className="text-white text-lg laptop:text-3xl desktop:text-3xl leading-[35px] laptop:leading-[50px] desktop:leading-[60px]">
             We are formerly known as Volga-Dnepr Gulf (UAE) (FZC), we have
             rebranded ourselves as MRO Gulf (FZC) in 2022.
-            <br /><br />
-             With this
-            transformation, we continue our legacy of excellence in the aviation
-            industry.
+            <br />
+            <br />
+            With this transformation, we continue our legacy of excellence in
+            the aviation industry.
           </h2>
           <div className="flex space-x-10 justify-start  mt-10 laptop:mt-0 laptop:mb-10">
             <Link
@@ -48,16 +48,6 @@ export default async function Home() {
               Please be free to contact our team for any queries:{" "}
             </h3>
             <p>E-mail: assistant@mrogulf.com</p>
-          </div>
-
-          <div className="mb-8 laptop:mb-16 flex flex-col">
-            <h3 className="text-gray-600 text-xl mb-2 font-semibold">
-              Our company address:
-            </h3>
-            <p>
-              SAIF Zone, Block “O4-004”, P.O. Box 8353, Sharjah , United Arab
-              Emirates{" "}
-            </p>
           </div>
 
           <div className="mb-8 laptop:mb-16 flex flex-col">

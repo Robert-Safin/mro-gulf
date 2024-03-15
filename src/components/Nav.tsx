@@ -14,7 +14,7 @@ const Nav = async () => {
             width={3000}
             height={3000}
             alt="logo"
-            className="w-20 h-auto object-cover self-end"
+            className="w-20 laptop:w-32 h-auto object-cover self-end"
           />
         </Link>
       </div>
