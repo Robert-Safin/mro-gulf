@@ -9,12 +9,14 @@ export default async function Home() {
       <div className="flex flex-col laptop:flex-row max-w-screen-desktop mx-auto">
         <div className="relative laptop:h-screen w-full laptop:w-1/2 bg-dark-blue flex flex-col justify-between  px-5 tablet:px-8 laptop:px-12 pt-28 pb-10">
           <h2 className="text-white text-lg laptop:text-3xl desktop:text-3xl leading-[35px] laptop:leading-[50px] desktop:leading-[60px]">
-            We are formerly known as Volga-Dnepr Gulf (UAE) (FZC), we have
-            rebranded ourselves as MRO Gulf (FZC) in 2022.
-            <br />
-            <br />
-            With this transformation, we continue our legacy of excellence in
-            the aviation industry.
+            MRO Gulf (FZC) is undergoing an exciting transformation under new
+            management and ownership. We are currently restructuring our
+            operations to re-enter the aviation industry with a fresh
+            perspective and a renewed brand identity. Our goal is to build on
+            our legacy while innovating and adapting to meet the dynamic needs
+            of the aviation sector. Stay tuned for updates as we embark on this
+            new chapter, committed to excellence and growth in aviation
+            services.
           </h2>
           <div className="flex space-x-10 justify-start  mt-10 laptop:mt-0 laptop:mb-10">
             <Link
