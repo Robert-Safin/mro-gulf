@@ -52,15 +52,6 @@ export default async function Home() {
             <p>E-mail: assistant@mrogulf.com</p>
           </div>
 
-          <div className="mb-8 laptop:mb-16 flex flex-col">
-            <h3 className="text-gray-600 text-xl mb-2 font-semibold">
-              Project & Operational Manager: Sergey Poda
-            </h3>
-            <p>Tel.: +971 6 598 4622</p>
-            <p>Mob: +971 58 875 3162 </p>
-            <p>E-Mail: s.poda@mrogulf.com </p>
-          </div>
-
           <div className="h-full flex justify-between items-end laptop:pb-10 mt-40 laptop:mt-0">
             <p className="text-sm">COPYRIGHT © 2024 MRO GULF</p>
             <Link href="/policy">
